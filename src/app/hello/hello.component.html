@@ -1,0 +1,11 @@
+
+<form class="calculator-form">
+  <input type="number" placeholder="enter a num " #n1><br>
+  <input type="number" placeholder="enter a num" #n2 required><br>
+<button type="button"  (click)="add(n1.value,n2.value)">add</button>
+  <button type="button" (click)="sub(n1.value, n2.value)">sub</button>
+  <button type="button" (click)="multi(n1.value, n2.value)">multi</button>
+  <button type="button" (click)="div(n1.value, n2.value)">div</button>
+
+</form>
+<p class="result">Result: {{ n3 }}</p>
